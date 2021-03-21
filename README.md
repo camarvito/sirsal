@@ -22,7 +22,7 @@ module.exports = {
 }
 ```
 
-Após se certificar que o banco e o arquivo _.env_ foi criado corretamente, rode os seguintes comandos na pasta raiz do projeto:
+Após se certificar que o banco e o arquivo _.env_ foram criados corretamente, rode os seguintes comandos na pasta raiz do projeto:
 
 ```
 npm install
