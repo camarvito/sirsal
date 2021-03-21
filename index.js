@@ -7,9 +7,7 @@ app.db = db
 consign()
 	.include('./config/passport.js')
 	.then('./config/middlewares.js')
-	// .then('./api/validation.js')
 	.then('./api')
-	// .then('./schedule')
 	.then('./config/routes.js')
 	.into(app)
 
